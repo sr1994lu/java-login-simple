@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Insert title here</title>
+  <style>
+    .main {
+      border: solid 1px red;
+    }
+
+    :disabled {
+      background-color: #999;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <!-- ----------------------------------------------------------
+  -- please check "Java基礎１_170426_4.png" for specifications --
+  -- -------------------------------------------------------- -->
+  <h2>フォワードと配列</h2>
+  IW14A703-99 Shunsuke NISHINO
+  <hr>
+  ■ユーザIDとパスワード検証１（Servletのみ）<br>
+  <form action="Output1">
+    <br>ユーザID：<input type="text" name="atai1" disabled>
+    <br>パスワード：<input type="text" name="atai2" disabled><br>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+  ■ユーザIDとパスワード検証２（Servlet→JSP）<br>
+  <form action="Output2">
+    <br>ユーザID：<input type="text" name="atai1" disabled>
+    <br>パスワード：<input type="text" name="atai2" disabled><br>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+  ■複数のユーザID検証３　一次元配列（Servlet→JSP）<br>
+  <form action="Output3">
+    <br>ユーザID：<input type="text" name="atai1" disabled>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+  ■複数のユーザIDとパスワード検証４　一次元配列複数（Servlet→JSP）<br>
+  <form action="Output4">
+    <br>ユーザID：<input type="text" name="atai1" disabled>
+    <br>パスワード：<input type="text" name="atai2" disabled><br>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+  ■複数のユーザIDとパスワード検証５　二次元配列（Servlet→JSP）<br>
+  <form action="Output5" class="main">
+    <br>ユーザID：<input type="text" name="atai1">
+    <br>パスワード：<input type="text" name="atai2"><br>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+  ■複数のユーザIDとパスワード検証６　連想配列（Servlet→JSP:Sessionを使用）<br>
+  <form action="Output6">
+    <br>ユーザID：<input type="text" name="atai1" disabled>
+    <br>パスワード：<input type="text" name="atai2" disabled><br>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+  ■複数のユーザIDとパスワード検証７　可変長配列（Servlet→JSP:Sessionを使用）<br>
+  <form action="Output7">
+    <br>ユーザID：<input type="text" name="atai1" disabled>
+    <br>パスワード：<input type="text" name="atai2" disabled><br>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+  ■【POST】複数のユーザIDとパスワード検証８　可変長配列&POST（Servlet→JSP:Sessionを使用）<br>
+  <form action="Output8" method="post" class="main">
+    <br>ユーザID：<input type="text" name="atai1">
+    <br>パスワード：<input type="text" name="atai2"><br>
+    <input type="submit" value="認証">
+  </form>
+  <hr>
+</body>
+</html>
