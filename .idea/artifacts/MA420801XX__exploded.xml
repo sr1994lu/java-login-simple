@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MA420801XX: exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/MA420801XX__exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="java-login-simple" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="java-login-simple/web/Web" />
+    </root>
+  </artifact>
+</component>
